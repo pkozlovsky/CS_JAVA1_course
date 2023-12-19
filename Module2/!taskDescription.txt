@@ -1,0 +1,48 @@
+C. Ranges and Type Conversions
+
+Task C1
+Enter the constant PI into a variable of type float double. Display it to 30 places with precision up to 15 decimal places. Any differences? Conclusions?
+
+Task C2
+Type conversions.
+Write a program where the variable 'data' of integer type is assigned the code of the uppercase letter 'A'. This variable is decremented by one. A float variable named 'amount' is assigned the value 23.333 and multiplied by a constant of type byte 'DATA' with a value of 3. The result of the multiplication is entered into a double type variable 'result'. Subsequently, the 'result' variable is converted to a float type and entered into a float variable 'end'. In the final phase, the program displays all variables and the constant using printf according to their types. Integers on 10 places, reals on 15 with five decimal places, each variable with a description of its name in a separate line.
+
+Task C3
+Write a program where the character variable 'letter' is assigned the letter 'A'. To this variable, add the value of the constant of type int named 'QUANTITY' with a value of 12. The resulting character is displayed in ASCII form and its code. Subsequently, use the 'letter' variable to multiply a 'number' variable of double precision real type with an initial value of 123.321. The result of the multiplication is entered into a 'date' variable of double precision. Display the value of both real variables using one printf command, but each on a separate line on 25 positions including 15 positions after the decimal point.
+
+Task C4
+Write a program where the character variable 'letter' with a value of 90 is displayed as a character. Subsequently, a string variable 'text' containing "Janek" is displayed on the console, and the content of the 'letter' variable is appended to it. Then, from the variable 'date' of single precision type and value 0.123e-23, subtract the value of the double precision variable named 'amount' with a value of 0.1e-123. The difference is stored in the 'amount' variable. Finally, all variables are displayed, each on a separate line, on 35 positions each. Real values with precision up to 25 decimal places.
+
+Task C5
+Write a program where a double precision variable named 'data' with a value of 98.123 is multiplied by the value of the constant 'QUANTITY' of single precision and value 0.1e-23, and the result of the product is entered into the 'data' variable. Subsequently, this variable is stored in a byte type variable named 'byte'. This variable is then stored in a character type variable named 'sign'. In a long type variable 'many', enter the value 782 and write this variable into a short type variable named 'small'. Finally, all variables are to be displayed in their formats using printf.
+
+Task C6
+Ranges of variables. Exceeding the range during compilation and during program operation.
+Declare a byte type variable, assign it the maximum value. What is the range of variables of this type? In the next instruction, the program adds 1 to this variable and displays its value. What is the effect? Conclusions?
+
+Declare a double type variable and using a built-in mathematical function, raise 2 to the power of 63. Double the result. Then perform the exponentiation of 2 to 1024. What is the effect? For what reason. At what point? (compilation, program operation).
+
+D. Simple Programs
+In the tasks, use the functions pfintf, format, println for clear formatting of the results.
+
+Task D1
+Input and output of data.
+Write a program where the user enters their first name, last name, age, and weight. The program should greet the user with their data and inform them how many years they are missing to 100 and how many kilograms they are away from weighing 100kg. Choose appropriate data types. Use a constant for the value of 100.
+
+Task D2
+Arithmetic operations.
+Declare two integer variables, perform addition, subtraction, multiplication, and division on them. What does the division of two real numbers look like and what about two integers?
+Perform the operation of the remainder of division.
+Apply the pre and post incrementation and decrementation operators.
+
+Task D3
+Write a program that calculates the area and perimeter of a rectangle with given sides. Use float type real variables, display the results with accuracy to four decimal places and then to two. Observe the rounding method.
+
+Task D4
+Write a program that calculates the area and circumference of a circle with a given radius. The program should also calculate the volume of a sphere with a radius equal to the square root of the given circle radius. Use double type for calculations. Display the results with accuracy to 3 decimal places.
+
+Task D5
+Write a program performing integer division of two integer-type numbers. Perform several divisions on different data types (int/byte, byte, short, int/long, int/int). Also, obtain the remainder of the division.
+
+Task D6
+Write a program calculating the product, quotient, sum, difference, and power (ab) of two float type numbers. Present the results with accuracy to the 12th decimal place. Perform the division of 1/3. What is the result? Is it consistent with expectations? Conclusions?
