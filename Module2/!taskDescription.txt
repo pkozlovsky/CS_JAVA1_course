@@ -1,3 +1,18 @@
+Task B2
+Some information about displaying results on the console.
+Using a method that formats the output, show on the console values: integer, real, character, string, boolean.
+
+Task B3
+In your program, use the learned data types for a variable with the value 10, 11, 12, 13, but written in decimal, hexadecimal, octal, and binary form. Present the results in a clear way, e.g., on 8 positions aligned to the right and preceded by zeros.
+
+Task B4
+Simple number system converter.
+Write a program that converts a decimal number provided by the user into binary, octal, and hexadecimal systems. Display the results on 16 positions aligned to the right. Use only data display functions/methods such as print, println, printf, format, or String.format.
+
+Task B5
+Write a program showing the method of adding two binary numbers. The user provides the numbers, and the program displays their sum as follows:
+
+The results are to be displayed on 8 positions, aligned to the right and preceded by zeros.
 C. Ranges and Type Conversions
 
 Task C1
