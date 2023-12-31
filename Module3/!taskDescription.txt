@@ -1,0 +1,39 @@
+Task 1
+Write a program that takes two variables from the user (an integer and a real number). Perform increment operations (pre and post) on them and observe how they are realized in more complex expressions. Perform simple operations (in shorthand) of addition, subtraction, multiplication, division.
+
+Task 2
+Write a program that takes an integer value from the user. The program should provide information on whether the entered number is even or odd. Do not use any standard functions, only available arithmetic operators.
+
+Task 3
+Write a program where we declare a binary variable with a value of 129, and a hexadecimal variable with a value of 17. Write both variables in binary and hexadecimal form. Introduce the value of an expression into a third real-type variable, where, using the pre-incrementation operator, we increase the first variable and decrease the second one using the post-decrementation operator. What is the result of the above operation? What are the values of the variables now?
+
+Task 4
+Declare a variable that occupies the minimum amount of memory. Enter a negative number into it. Convert the variable to an unsigned value and enter it into another variable. What are the values of both variables?
+
+Task 5
+Declare two integer (int) variables, assign them negative values, display their values and the result of division. Convert them to unsigned numbers. What values do they have now? What methods does the Integer class offer?
+
+Task 6
+Using only and exclusively appropriate operators (without conditional instructions) check if the integer value given by the user falls within the range <-10..22). Perform a second check: does it fall within the range <-10..22) .. (36..50>? Provide appropriate screen messages.
+
+Task 7
+Expand the above program with a response of "belongs" or "does not belong" obtained using a conditional operator.
+
+Task 8
+Apply a bitwise negation operator on an integer variable with a positive value of 10. Observe and discuss the result and the method of calculation. Display data in decimal and binary form. Use the toBinaryString method from the Integer class.
+
+Task 9
+On a byte-type integer variable with values of 10 and -10, perform bit shift operations one to the right and then to the left eight times. Use a loop, display results in decimal and binary forms. Keep a constant field width with the displayed values. Do the same on an int-type variable. Discuss the results.
+
+Task 10
+Write a program allowing the user to enter a number from 0 to 127. Subsequently, the program will shift this number to the left and then to the right by the number of bits specified by the user. Then the user will specify which bit the program should test (check if it is set), which bit to set, and finally which bit to clear.
+
+Task 11
+Write a program that calculates the equation: (remember, the sine works on radians)
+y = sqrt(x^2 + 7)/4 - x^2 + sin(x)/6
+
+Task 12
+Write a program that reads a certain number of seconds (an integer variable named s) from the user. The program should display how many days, hours, minutes, and seconds it is in the form of: "s seconds is dd:hh:mm:ss".
+
+Task 13
+Write a program that calculates average fuel consumption. The user provides the number of kilometers driven and the amount of fuel burned. The result should be to two decimal places.
